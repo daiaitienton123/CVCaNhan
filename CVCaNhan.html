@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Mai Văn Tường</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-BxY1NglvXnJj1SXmp3/wD7eeRZkXq3Hcq8Wmy9m0jD2u1hxDRD6J2e7Z4rkaWg0z8KFx3uF1M3Y8+jM8LCF2Tg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .TTCaNhan {
+            color: green;
+        }
+
+        .QTHocTap {
+            color: #d4a017;
+        }
+
+        .KyNang {
+            color: #e75480;
+        }
+
+        .SoThich {
+            color: red;
+        }
+
+        .LienHe {
+            color: brown;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .section {
+            flex: 1 1 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        @media (min-width: 768px) {
+            .section {
+                flex: 1 1 calc(50% - 10px);
+            }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        #FB {
+            font-size: 25px;
+            color: blue;
+        }
+
+        .box {
+            margin-top: 15px;
+        }
+
+        #BanDo {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CV - Mai Văn Tường</h1>
+    <hr>
+
+    <h2>Mục lục</h2>
+    <ul>
+        <li><a href="#TTCaNhan">Thông tin cá nhân</a></li>
+        <li><a href="#QTHocTap">Quá trình học tập</a></li>
+        <li><a href="#KyNang">Kỹ năng</a></li>
+        <li><a href="#SoThich">Sở thích</a></li>
+        <li><a href="#LienHe">Liên hệ</a></li>
+    </ul>
+
+    <div class="container">
+        <!-- Thông tin cá nhân -->
+        <div class="section" id="TTCaNhan">
+            <h2 class="TTCaNhan">Thông tin cá nhân</h2>
+            <ul>
+                <li>Họ và tên: Mai Văn Tường</li>
+                <li>Ngày sinh: 17/05/2005</li>
+                <li>Địa chỉ: Hà Nội, Việt Nam</li>
+                <li>Email: tuongthptpxa@gmail.com</li>
+                <li>Số điện thoại: 0337268951</li>
+            </ul>
+        </div>
+
+        <!-- Quá trình học tập -->
+        <div class="section" id="QTHocTap">
+            <h2 class="QTHocTap">Quá trình học tập</h2>
+            <ul>
+                <li>Đại học: Học viện Nông nghiệp Việt Nam</li>
+                <a href="https://vnua.edu.vn/"><img
+                        src="https://file.vnua.edu.vn/data/0/images/2019/09/10/host/logo-vnua.png?w=680" alt="VNUA"
+                        style="width: 80px; height: 80px;" /></a>
+                <li>Khoa: Công nghệ thông tin</li>
+                <img src="https://fita.vnua.edu.vn/wp-content/uploads/2014/06/logo-en.png" alt="Khoa CNTT"
+                    style="width: 80px; height: 80px;" />
+                <li>Lớp: K68CNTTF</li>
+                <li>Thời gian học: 2023 - 2027</li>
+            </ul>
+
+            <table>
+                <tr>
+                    <th colspan="6">Bảng điểm thi của tôi</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">STT</th>
+                    <th rowspan="2">Môn học</th>
+                    <th colspan="3">Điểm thi</th>
+                    <th rowspan="2">Thông tin môn học</th>
+                </tr>
+                <tr>
+                    <td>Lần 1</td>
+                    <td>Lần 2</td>
+                    <td>Lần 3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kĩ thuật lập trình</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td><a href="http://dse.vnua.edu.vn/ncthang/th02034/">Kĩ thuật lập trình</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cấu trúc dữ liệu và giải thuật</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td><a href="https://dse.vnua.edu.vn/cnpm/th02016/">Cấu trúc dữ liệu và giải thuật</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Kỹ năng -->
+        <div class="section" id="KyNang">
+            <h2 class="KyNang">Kỹ năng</h2>
+            <ul>
+                <li>Lập trình: C#, HTML, C++</li>
+                <li>Quản lý cơ sở dữ liệu: SQL Server</li>
+                <li>Kỹ năng mềm: Giao tiếp, Làm việc nhóm, Giải quyết vấn đề</li>
+            </ul>
+        </div>
+
+        <!-- Sở thích -->
+        <div class="section" id="SoThich">
+            <h2 class="SoThich">Sở thích</h2>
+            <ul>
+                <li>Cầu lông</li>
+                <li>Game</li>
+            </ul>
+        </div>
+
+        <!-- Liên hệ -->
+        <div class="section" id="LienHe">
+            <h2 class="LienHe">Liên hệ</h2>
+            <form action="mailto:tuongthptpxa@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Họ và tên:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email của bạn:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="SĐT">Số điện thoại:</label><br>
+                <input type="tel" id="SĐT" name="Số điện thoại"><br><br>
+
+                <label for="message">Nội dung:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+                <button type="submit">Gửi liên hệ</button>
+                <button type="reset">Xóa</button>
+            </form>
+
+            <div class="box">
+                <iframe id="BanDo"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14898.315453922061!2d105.9379865!3d21.00951205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a94c1f882977%3A0x6d016e6656923f46!2zSOG7jWMgdmnhu4duIE7DtG5nIE5naGnhu4dwIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1757467045000!5m2!1svi!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p><b>Email:</b> tuongthptpxa@gmail.com</p>
+                <p><b>Hotline:</b> 123456789</p>
+                <a href="https://www.facebook.com/mai.van.tuong.814202" target="_blank">
+                    <i class="fa-brands fa-facebook" id="FB"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
